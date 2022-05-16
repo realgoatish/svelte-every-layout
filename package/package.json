@@ -1,0 +1,38 @@
+{
+  "name": "svelte-every-layout",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "typescript": "~4.6.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "svelte2tsx": "^0.5.10"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./actions": "./actions/index.js",
+    "./components/Box.svelte": "./components/Box.svelte",
+    "./components/Center.svelte": "./components/Center.svelte",
+    "./components/Cluster.svelte": "./components/Cluster.svelte",
+    "./components/Cover.svelte": "./components/Cover.svelte",
+    "./components/Frame.svelte": "./components/Frame.svelte",
+    "./components/Grid.svelte": "./components/Grid.svelte",
+    "./components/Icon.svelte": "./components/Icon.svelte",
+    "./components/Imposter.svelte": "./components/Imposter.svelte",
+    "./components/Reel.svelte": "./components/Reel.svelte",
+    "./components/Sidebar.svelte": "./components/Sidebar.svelte",
+    "./components/Stack.svelte": "./components/Stack.svelte",
+    "./components/Switcher.svelte": "./components/Switcher.svelte",
+    ".": "./index.js"
+  },
+  "svelte": "./index.js"
+}
