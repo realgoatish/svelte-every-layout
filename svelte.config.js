@@ -5,7 +5,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
     package: {
-      dir: 'svelte-every-layout',
+      // dir: 'svelte-every-layout',
       emitTypes: true
     }
 	}
