@@ -7,7 +7,7 @@
 # !.env.example
 *
 !actions/
-!components
+!/components
 !.gitignore
 !index.d.ts
 !index.js
