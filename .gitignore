@@ -1,7 +1,15 @@
-.DS_Store
-node_modules
-/build
-/.svelte-kit
-.env
-.env.*
-!.env.example
+# .DS_Store
+# node_modules
+# /build
+# /.svelte-kit
+# .env
+# .env.*
+# !.env.example
+*
+!actions/
+!components/
+!.gitignore
+!index.d.ts
+!index.js
+!package.json
+!README.md

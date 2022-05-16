@@ -1,17 +1,6 @@
 {
   "name": "svelte-every-layout",
   "version": "0.0.1",
-  "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
-    "prepare": "svelte-kit sync",
-    "check": "svelte-check --tsconfig ./jsconfig.json",
-    "check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
-    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
-  },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
@@ -27,5 +16,23 @@
   "type": "module",
   "dependencies": {
     "svelte2tsx": "^0.5.10"
-  }
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./actions": "./actions/index.js",
+    "./components/Box.svelte": "./components/Box.svelte",
+    "./components/Center.svelte": "./components/Center.svelte",
+    "./components/Cluster.svelte": "./components/Cluster.svelte",
+    "./components/Cover.svelte": "./components/Cover.svelte",
+    "./components/Frame.svelte": "./components/Frame.svelte",
+    "./components/Grid.svelte": "./components/Grid.svelte",
+    "./components/Icon.svelte": "./components/Icon.svelte",
+    "./components/Imposter.svelte": "./components/Imposter.svelte",
+    "./components/Reel.svelte": "./components/Reel.svelte",
+    "./components/Sidebar.svelte": "./components/Sidebar.svelte",
+    "./components/Stack.svelte": "./components/Stack.svelte",
+    "./components/Switcher.svelte": "./components/Switcher.svelte",
+    ".": "./index.js"
+  },
+  "svelte": "./index.js"
 }
