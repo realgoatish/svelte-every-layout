@@ -23,7 +23,7 @@
 	/** @type {boolean} [invert=false] - prop to add a class and invert 'color' & 'background-color' */
 	export let invert = false;
 
-  let test = "THIS IS A TEST"
+  let test = "WABBA WABBA"
 
 </script>
 
